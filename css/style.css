@@ -1,0 +1,101 @@
+/**************************
+NEUTRALIDAD
+***************************/
+h1, h2, h3, h4, h5, h6, p, html, body, img{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	background-color: #3272C0;
+}
+body{
+	color: #FFFFFF;
+}
+/**************************
+ESTRUCTURA
+***************************/
+#wrapper{
+	width: 80%;
+	max-width: 960px;
+	min-width: 460px;
+	height: 660px;
+	background-color: #202021;
+	margin: 0 auto;
+}
+#cabecera{
+	height: 80px;
+	background-color: #C8C8CA;
+	color: #4078C0;
+}
+#contenido{
+	height: 560px;
+	background-color: #70CA51;
+}
+#pie{
+	height: 30px;
+	background-color: #202021;
+}
+#izq{
+	background-color: red;
+	float: left;
+	width: 48%;
+	height: 560px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 0;
+}
+#img1{
+	margin:0px auto;
+    	text-align:center;
+}
+#img2{
+	margin:0px auto;
+    	text-align:center;
+}
+#der{
+	background-color: orange;
+	float: right;
+	width: 48%;
+	height: 560px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 0;
+}
+/*********************
+CLASES
+*********************/
+.izquierda{
+	float: left;
+	margin: 1em;
+	width: 90%;
+}
+.derecha{
+	float: left;
+	margin: 1em;
+	width: 90%;
+}
+/*********************
+ESTILOS
+*********************/
+p {
+	font-size:1em;
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+h1{
+	padding-top:5px;
+	text-align:center;
+	letter-spacing:.1em;
+}
+h2{
+	padding:5px;
+	text-align:center;
+}
+h4{
+	text-align:center;
+	font-size:.8em;
+	float: center;
+	padding-top: .7em;
+}
